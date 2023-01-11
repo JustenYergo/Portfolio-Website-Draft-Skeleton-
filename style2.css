@@ -1,0 +1,67 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: black;
+  background-size: cover;
+}
+.circle{
+  background: black;
+  border: 10px solid white;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+}
+
+.outer_circle{
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 375px;
+  height: 375px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.circle h1{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+}
+.circle input[type="password"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 10px;
+  width: 160px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+.circle input[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 10px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
